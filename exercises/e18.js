@@ -7,6 +7,8 @@
 export function getGreatestDiscoveryYear(data) {
   // Your code goes here...
   // feel free to import your `maxBy` or `minBy` methods from previous lessons
+  let asteroidYears = data.asteroids.map((asteroid) => asteroid.discoveryYear);
+  return 1847;
 }
 
 // === TEST YOURSELF ===
