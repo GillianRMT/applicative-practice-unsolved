@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is a great way to practice array applicatives in js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test-all": "vitest --run",
     "test-0": "vitest --run e0-example.",
